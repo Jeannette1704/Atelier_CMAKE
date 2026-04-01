@@ -28,7 +28,7 @@ jobs:
           cmake ..
           make
           ./src/calculator add 10 5
-  Test_Car:
+  Test_car:
     runs-on: ubuntu-latest
     needs: Compilation
     steps:
